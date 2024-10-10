@@ -1,0 +1,244 @@
+0 verbose cli /opt/homebrew/Cellar/node/22.0.0/bin/node /opt/homebrew/bin/npm
+1 info using npm@10.5.1
+2 info using node@v22.0.0
+3 timing npm:load:whichnode Completed in 0ms
+4 timing config:load:defaults Completed in 0ms
+5 timing config:load:file:/opt/homebrew/lib/node_modules/npm/npmrc Completed in 1ms
+6 timing config:load:builtin Completed in 1ms
+7 timing config:load:cli Completed in 1ms
+8 timing config:load:env Completed in 0ms
+9 timing config:load:file:/Users/alihassan/Desktop/BridgeZone/friendsloc/.npmrc Completed in 0ms
+10 timing config:load:project Completed in 1ms
+11 timing config:load:file:/Users/alihassan/.npmrc Completed in 0ms
+12 timing config:load:user Completed in 0ms
+13 timing config:load:file:/opt/homebrew/etc/npmrc Completed in 0ms
+14 timing config:load:global Completed in 0ms
+15 timing config:load:setEnvs Completed in 0ms
+16 timing config:load Completed in 4ms
+17 timing npm:load:configload Completed in 5ms
+18 timing config:load:flatten Completed in 1ms
+19 timing npm:load:mkdirpcache Completed in 0ms
+20 timing npm:load:mkdirplogs Completed in 0ms
+21 verbose title npm i
+22 verbose argv "i" "--cache" "clean"
+23 timing npm:load:setTitle Completed in 3ms
+24 timing npm:load:display Completed in 0ms
+25 verbose logfile logs-max:10 dir:/Users/alihassan/Desktop/BridgeZone/friendsloc/clean/_logs/2024-05-12T11_09_18_303Z-
+26 verbose logfile /Users/alihassan/Desktop/BridgeZone/friendsloc/clean/_logs/2024-05-12T11_09_18_303Z-debug-0.log
+27 timing npm:load:logFile Completed in 4ms
+28 timing npm:load:timers Completed in 0ms
+29 timing npm:load:configScope Completed in 0ms
+30 timing npm:load Completed in 20ms
+31 timing arborist:ctor Completed in 0ms
+32 silly logfile done cleaning log files
+33 timing idealTree:init Completed in 196ms
+34 timing idealTree:userRequests Completed in 0ms
+35 silly idealTree buildDeps
+36 timing idealTree:#root Completed in 0ms
+37 silly fetch manifest react@^16.13.1
+38 timing arborist:ctor Completed in 0ms
+39 http fetch GET 200 https://registry.npmjs.org/npm 601ms
+40 http fetch GET 200 https://registry.npmjs.org/react 502ms (cache miss)
+41 warn ERESOLVE overriding peer dependency {
+41 warn ERESOLVE   code: 'ERESOLVE',
+41 warn ERESOLVE   edge: {
+41 warn ERESOLVE     type: 'peer',
+41 warn ERESOLVE     name: 'react',
+41 warn ERESOLVE     spec: '^16.13.1',
+41 warn ERESOLVE     error: 'INVALID',
+41 warn ERESOLVE     from: {
+41 warn ERESOLVE       name: 'react-art',
+41 warn ERESOLVE       version: '16.13.1',
+41 warn ERESOLVE       location: 'node_modules/react-art',
+41 warn ERESOLVE       isWorkspace: false,
+41 warn ERESOLVE       dependents: [Array]
+41 warn ERESOLVE     }
+41 warn ERESOLVE   },
+41 warn ERESOLVE   dep: {
+41 warn ERESOLVE     name: 'react',
+41 warn ERESOLVE     version: '16.14.0',
+41 warn ERESOLVE     whileInstalling: {
+41 warn ERESOLVE       name: 'react-art',
+41 warn ERESOLVE       version: '16.13.1',
+41 warn ERESOLVE       path: '/Users/alihassan/Desktop/BridgeZone/friendsloc/node_modules/react-art'
+41 warn ERESOLVE     },
+41 warn ERESOLVE     location: 'node_modules/react',
+41 warn ERESOLVE     isWorkspace: false,
+41 warn ERESOLVE     dependents: [ [Object] ]
+41 warn ERESOLVE   },
+41 warn ERESOLVE   force: false,
+41 warn ERESOLVE   isMine: false,
+41 warn ERESOLVE   strictPeerDeps: false,
+41 warn ERESOLVE   current: {
+41 warn ERESOLVE     name: 'react',
+41 warn ERESOLVE     version: '18.2.0',
+41 warn ERESOLVE     location: 'node_modules/react',
+41 warn ERESOLVE     isWorkspace: false,
+41 warn ERESOLVE     dependents: [
+41 warn ERESOLVE       [Object], [Object], [Object],
+41 warn ERESOLVE       [Object], [Object], [Object],
+41 warn ERESOLVE       [Object], [Object], [Object],
+41 warn ERESOLVE       [Object], [Object], [Object],
+41 warn ERESOLVE       [Object], [Object], [Object],
+41 warn ERESOLVE       [Object], [Object], [Object],
+41 warn ERESOLVE       [Object], [Object], [Object],
+41 warn ERESOLVE       [Object], [Object], [Object],
+41 warn ERESOLVE       [Object], [Object], [Object]
+41 warn ERESOLVE     ]
+41 warn ERESOLVE   },
+41 warn ERESOLVE   peerConflict: {
+41 warn ERESOLVE     current: {
+41 warn ERESOLVE       name: 'react',
+41 warn ERESOLVE       version: '18.2.0',
+41 warn ERESOLVE       location: 'node_modules/react',
+41 warn ERESOLVE       isWorkspace: false,
+41 warn ERESOLVE       dependents: [Array]
+41 warn ERESOLVE     },
+41 warn ERESOLVE     peer: {
+41 warn ERESOLVE       name: 'react',
+41 warn ERESOLVE       version: '16.14.0',
+41 warn ERESOLVE       whileInstalling: [Object],
+41 warn ERESOLVE       location: 'node_modules/react',
+41 warn ERESOLVE       isWorkspace: false,
+41 warn ERESOLVE       dependents: [Array]
+41 warn ERESOLVE     }
+41 warn ERESOLVE   }
+41 warn ERESOLVE }
+42 timing idealTree:node_modules/react-art Completed in 530ms
+43 silly fetch manifest react@^16.14.0
+44 warn ERESOLVE overriding peer dependency {
+44 warn ERESOLVE   code: 'ERESOLVE',
+44 warn ERESOLVE   edge: {
+44 warn ERESOLVE     type: 'peer',
+44 warn ERESOLVE     name: 'react',
+44 warn ERESOLVE     spec: '^16.14.0',
+44 warn ERESOLVE     error: 'INVALID',
+44 warn ERESOLVE     from: {
+44 warn ERESOLVE       name: 'react-dom',
+44 warn ERESOLVE       version: '16.14.0',
+44 warn ERESOLVE       location: 'node_modules/react-dom',
+44 warn ERESOLVE       isWorkspace: false,
+44 warn ERESOLVE       dependents: [Array]
+44 warn ERESOLVE     }
+44 warn ERESOLVE   },
+44 warn ERESOLVE   dep: {
+44 warn ERESOLVE     name: 'react',
+44 warn ERESOLVE     version: '16.14.0',
+44 warn ERESOLVE     whileInstalling: {
+44 warn ERESOLVE       name: 'react-dom',
+44 warn ERESOLVE       version: '16.14.0',
+44 warn ERESOLVE       path: '/Users/alihassan/Desktop/BridgeZone/friendsloc/node_modules/react-dom'
+44 warn ERESOLVE     },
+44 warn ERESOLVE     location: 'node_modules/react',
+44 warn ERESOLVE     isWorkspace: false,
+44 warn ERESOLVE     dependents: [ [Object] ]
+44 warn ERESOLVE   },
+44 warn ERESOLVE   force: false,
+44 warn ERESOLVE   isMine: false,
+44 warn ERESOLVE   strictPeerDeps: false,
+44 warn ERESOLVE   current: {
+44 warn ERESOLVE     name: 'react',
+44 warn ERESOLVE     version: '18.2.0',
+44 warn ERESOLVE     location: 'node_modules/react',
+44 warn ERESOLVE     isWorkspace: false,
+44 warn ERESOLVE     dependents: [
+44 warn ERESOLVE       [Object], [Object], [Object],
+44 warn ERESOLVE       [Object], [Object], [Object],
+44 warn ERESOLVE       [Object], [Object], [Object],
+44 warn ERESOLVE       [Object], [Object], [Object],
+44 warn ERESOLVE       [Object], [Object], [Object],
+44 warn ERESOLVE       [Object], [Object], [Object],
+44 warn ERESOLVE       [Object], [Object], [Object],
+44 warn ERESOLVE       [Object], [Object], [Object],
+44 warn ERESOLVE       [Object], [Object], [Object]
+44 warn ERESOLVE     ]
+44 warn ERESOLVE   },
+44 warn ERESOLVE   peerConflict: {
+44 warn ERESOLVE     current: {
+44 warn ERESOLVE       name: 'react',
+44 warn ERESOLVE       version: '18.2.0',
+44 warn ERESOLVE       location: 'node_modules/react',
+44 warn ERESOLVE       isWorkspace: false,
+44 warn ERESOLVE       dependents: [Array]
+44 warn ERESOLVE     },
+44 warn ERESOLVE     peer: {
+44 warn ERESOLVE       name: 'react',
+44 warn ERESOLVE       version: '16.14.0',
+44 warn ERESOLVE       whileInstalling: [Object],
+44 warn ERESOLVE       location: 'node_modules/react',
+44 warn ERESOLVE       isWorkspace: false,
+44 warn ERESOLVE       dependents: [Array]
+44 warn ERESOLVE     }
+44 warn ERESOLVE   }
+44 warn ERESOLVE }
+45 timing idealTree:node_modules/react-dom Completed in 9ms
+46 silly fetch manifest react-native-web@>= 0.11
+47 http fetch GET 200 https://registry.npmjs.org/react-native-web 400ms (cache miss)
+48 silly fetch manifest react@>= 17.0.1
+49 silly fetch manifest react-dom@^18.0.0
+50 http fetch GET 200 https://registry.npmjs.org/react-dom 1366ms (cache miss)
+51 timing idealTree Completed in 2539ms
+52 timing command:i Completed in 2560ms
+53 notice
+53 notice New [33mminor[39m version of npm available! [31m10.5.1[39m -> [32m10.7.0[39m
+53 notice Changelog: [36mhttps://github.com/npm/cli/releases/tag/v10.7.0[39m
+53 notice Run [32mnpm install -g npm@10.7.0[39m to update!
+53 notice
+54 verbose stack Error: could not resolve
+54 verbose stack     at PlaceDep.failPeerConflict (/opt/homebrew/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/place-dep.js:503:25)
+54 verbose stack     at new PlaceDep (/opt/homebrew/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/place-dep.js:157:21)
+54 verbose stack     at #buildDepStep (/opt/homebrew/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/arborist/build-ideal-tree.js:940:18)
+54 verbose stack     at async Arborist.buildIdealTree (/opt/homebrew/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/arborist/build-ideal-tree.js:203:7)
+54 verbose stack     at async Promise.all (index 1)
+54 verbose stack     at async Arborist.reify (/opt/homebrew/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/arborist/reify.js:154:5)
+54 verbose stack     at async Install.exec (/opt/homebrew/lib/node_modules/npm/lib/commands/install.js:153:5)
+54 verbose stack     at async module.exports (/opt/homebrew/lib/node_modules/npm/lib/cli-entry.js:61:5)
+55 verbose cwd /Users/alihassan/Desktop/BridgeZone/friendsloc
+56 verbose Darwin 23.4.0
+57 verbose node v22.0.0
+58 verbose npm  v10.5.1
+59 error code ERESOLVE
+60 error ERESOLVE could not resolve
+61 error
+62 error While resolving: [1mreact-native-maps[22m@[1m1.13.0[22m
+62 error Found: [1mreact-native-web[22m@[1m0.9.13[22m[2m[22m
+62 error [2mnode_modules/react-native-web[22m
+62 error   [35mpeer[39m [1mreact-native-web[22m@"[1m*[22m" from [1mreact-native-country-picker-modal[22m@[1m2.0.0[22m[2m[22m
+62 error   [2mnode_modules/react-native-country-picker-modal[22m
+62 error     [1mreact-native-country-picker-modal[22m@"[1m^2.0.0[22m" from [1mreact-native-phone-number-input[22m@[1m2.1.0[22m[2m[22m
+62 error     [2mnode_modules/react-native-phone-number-input[22m
+62 error       [1mreact-native-phone-number-input[22m@"[1m^2.1.0[22m" from the root project
+62 error   [35mpeer[39m [1mreact-native-web[22m@"[1m0.9.x[22m" from [1mmodal-react-native-web[22m@[1m0.2.0[22m[2m[22m
+62 error   [2mnode_modules/react-native-country-picker-modal/node_modules/modal-react-native-web[22m
+62 error     [1mmodal-react-native-web[22m@"[1m0.2.0[22m" from [1mreact-native-country-picker-modal[22m@[1m2.0.0[22m[2m[22m
+62 error     [2mnode_modules/react-native-country-picker-modal[22m
+62 error       [1mreact-native-country-picker-modal[22m@"[1m^2.0.0[22m" from [1mreact-native-phone-number-input[22m@[1m2.1.0[22m[2m[22m
+62 error       [2mnode_modules/react-native-phone-number-input[22m
+62 error         [1mreact-native-phone-number-input[22m@"[1m^2.1.0[22m" from the root project
+62 error
+62 error Could not resolve dependency:
+62 error peerOptional [1mreact-native-web[22m@"[1m>= 0.11[22m" from [1mreact-native-maps[22m@[1m1.13.0[22m[2m[22m
+62 error [2mnode_modules/react-native-maps[22m
+62 error   [1mreact-native-maps[22m@"[1m^1.13.0[22m" from the root project
+62 error
+62 error Conflicting peer dependency: [1mreact-native-web[22m@[1m0.19.11[22m[2m[22m
+62 error [2mnode_modules/react-native-web[22m
+62 error   peerOptional [1mreact-native-web[22m@"[1m>= 0.11[22m" from [1mreact-native-maps[22m@[1m1.13.0[22m[2m[22m
+62 error   [2mnode_modules/react-native-maps[22m
+62 error     [1mreact-native-maps[22m@"[1m^1.13.0[22m" from the root project
+62 error
+62 error Fix the upstream dependency conflict, or retry
+62 error this command with --force or --legacy-peer-deps
+62 error to accept an incorrect (and potentially broken) dependency resolution.
+63 error
+63 error
+63 error For a full report see:
+63 error /Users/alihassan/Desktop/BridgeZone/friendsloc/clean/_logs/2024-05-12T11_09_18_303Z-eresolve-report.txt
+64 verbose exit 1
+65 timing npm Completed in 2740ms
+66 verbose unfinished npm timer reify 1715512158482
+67 verbose unfinished npm timer reify:loadTrees 1715512158502
+68 verbose unfinished npm timer idealTree:buildDeps 1715512158699
+69 verbose unfinished npm timer idealTree:node_modules/react-native-maps 1715512159238
+70 verbose code 1
+71 error A complete log of this run can be found in: /Users/alihassan/Desktop/BridgeZone/friendsloc/clean/_logs/2024-05-12T11_09_18_303Z-debug-0.log

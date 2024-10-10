@@ -1,0 +1,35 @@
+'Log files:
+/Users/alihassan/Desktop/BridgeZone/friendsloc/clean/_logs/2024-05-12T11_09_18_303Z-debug-0.log
+
+# npm resolution error report
+
+While resolving: react-native-maps@1.13.0
+Found: react-native-web@0.9.13
+node_modules/react-native-web
+  peer react-native-web@"*" from react-native-country-picker-modal@2.0.0
+  node_modules/react-native-country-picker-modal
+    react-native-country-picker-modal@"^2.0.0" from react-native-phone-number-input@2.1.0
+    node_modules/react-native-phone-number-input
+      react-native-phone-number-input@"^2.1.0" from the root project
+  peer react-native-web@"0.9.x" from modal-react-native-web@0.2.0
+  node_modules/react-native-country-picker-modal/node_modules/modal-react-native-web
+    modal-react-native-web@"0.2.0" from react-native-country-picker-modal@2.0.0
+    node_modules/react-native-country-picker-modal
+      react-native-country-picker-modal@"^2.0.0" from react-native-phone-number-input@2.1.0
+      node_modules/react-native-phone-number-input
+        react-native-phone-number-input@"^2.1.0" from the root project
+
+Could not resolve dependency:
+peerOptional react-native-web@">= 0.11" from react-native-maps@1.13.0
+node_modules/react-native-maps
+  react-native-maps@"^1.13.0" from the root project
+
+Conflicting peer dependency: react-native-web@0.19.11
+node_modules/react-native-web
+  peerOptional react-native-web@">= 0.11" from react-native-maps@1.13.0
+  node_modules/react-native-maps
+    react-native-maps@"^1.13.0" from the root project
+
+Fix the upstream dependency conflict, or retry
+this command with --force or --legacy-peer-deps
+to accept an incorrect (and potentially broken) dependency resolution.
